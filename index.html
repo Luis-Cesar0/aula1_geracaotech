@@ -9,12 +9,16 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+        form{
+            border: 1px solid black;
+        }
         table{
             border-collapse: collapse;
         }
     </style>
 </head>
 <body>
+    <a href="tabelas.html">tabelas</a> <a href="sobreMim.html">Curriculo</a>
  <h1>Aula 2</h1>
  <h2>apresentação das listas</h2>
  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor a officiis illum eveniet. Cumque ullam, quaerat laborum ipsam nesciunt nulla alias quas, deserunt, quo molestiae culpa! Voluptatibus dolorum magni cumque.</p>
@@ -42,7 +46,6 @@
     <li>Melão</li>
     <li>maçã</li>
  </ul>
-    <a href="sobreMim.html">Curriculo</a>
 
  <h3>Lista de definição</h3>
  
@@ -130,5 +133,53 @@
         </tr>
     </tbody>
  </table>
+
+ <h2>Formulario</h2>
+ <form action="#">
+   <div>
+        <label for="nome" >nome</label>
+        <input type="text" name="nome" id="nome" value="1000">
+        <br>
+        <br>
+        <label for="tel">telefone</label>
+        <input type="number" name="tel" id="tel">
+        <br>
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+        <br>
+        <br>
+        <label for="data">data</label>
+        <input type="date" name="data" id="data">
+        <br>
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <br>
+        <label for="selc1">exemplo checkbox</label>
+        <input type="checkbox" name="selece" id="selc1" value="a">
+        <input type="checkbox" name="selece" id="selc1" value="b">
+        <input type="checkbox" name="selece" id="selc1" value="c">
+        <br>
+        <br>
+        <label for="selc2">exemplo radio</label>
+        <input type="radio" name="selece1" id="selc2" value="d">
+        <input type="radio" name="selece1" id="selc2" value="e">
+        <input type="radio" name="selece1" id="selc2" value="f">
+        <br>
+        <label for="se">escolha um numero</label>
+        <select name="se" id="se">
+            <option value="um" disabled>1</option>
+            <option value="dois">2</option>
+            <option value="tres">3</option>
+        </select>
+        <br>
+        <label for="area">Digite algo</label>
+        <textarea name="area" id="area" placeholder="oi"></textarea>
+   </div>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="limpar">
+ </form>
 </body>
 </html>
