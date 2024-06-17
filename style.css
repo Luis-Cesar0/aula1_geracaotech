@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 th,td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -7,4 +13,94 @@ form{
 }
 table{
     border-collapse: collapse;
+}
+header{
+    padding: 20px;
+    background-color: #1b1a28;
+    color: #fff;
+    margin: 0;
+}
+#logo-title{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    padding: 5px;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+li  a{
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #4d4df0, #11244e);
+    border-radius: 20px;
+}
+a:hover{
+    
+}
+img{
+    width: 200px;
+    margin-right: 20px;
+}
+.div1{
+    display: inline-block;
+    background-color: blue;
+    color: #000000;
+    min-width: 50px;
+    height: 50px;
+}
+.div2{
+    display: none;
+    background-color: #ff00ea;
+    color: #010000;
+    width: 150px;
+    height: 150px;
+}
+.div3{
+    display: inline-block;
+    background-color: rgb(115, 255, 0);
+    color: #000000;
+    max-width: 80px;
+    height: 80px;
+}
+.tages-div{
+    margin-bottom: 100px;
+}
+
+.felxbox{
+    border: 5px solid black;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+    /* width: 500px; */
+    height: 400px;
+}
+.vermelho{
+    background-color: red;
+    width: 150px;
+    height: 100px;
+}
+.verde{
+    background-color: green;
+    width: 450px;
+    height: 100px;
+}
+.azul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
 }
