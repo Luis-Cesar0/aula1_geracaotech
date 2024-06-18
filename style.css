@@ -69,6 +69,7 @@ img{
     color: #000000;
     max-width: 80px;
     height: 80px;
+    
 }
 .tages-div{
     margin-bottom: 100px;
@@ -109,5 +110,18 @@ img{
     border: 1 solid black;
     border-left: 30px solid black;
     border-radius: 10px;
+    padding: 20px;
+}
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+h2 ,h3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.859);
+}
+h3{
+    color: #353535;
+}
+form{
     padding: 20px;
 }
