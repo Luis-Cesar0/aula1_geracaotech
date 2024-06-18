@@ -102,3 +102,12 @@ img{
     width: 100px;
     height: 100px;
 }
+.cont-info{
+    background-color: #fff;
+    margin: 50px auto;
+    max-width: 1000px;
+    border: 1 solid black;
+    border-left: 30px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
