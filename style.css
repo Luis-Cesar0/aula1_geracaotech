@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+table{
+    border-collapse: collapse;
+}
 th,td{
-    border: 1px solid black;
+    padding: 5px;
+    border: 2px solid #000000;
     border-collapse: collapse;
 }
 form{
     border: 1px solid black;
 }
-table{
-    border-collapse: collapse;
-}
+
 header{
     padding: 20px;
     background-color: #1b1a28;
@@ -107,7 +108,6 @@ img{
     background-color: #fff;
     margin: 50px auto;
     max-width: 1000px;
-    border: 1 solid black;
     border-left: 30px solid black;
     border-radius: 10px;
     padding: 20px;
